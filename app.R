@@ -73,7 +73,7 @@ var.list <- c("Annual average temperature", "Annual warmest daily Tmax", "Annual
               "Annual cooling degree days", "Annual heating degree days", 
               "Annual total precipitation", "Annual maximum 1 day precipitation", "Annual maximum consecutive 5-day precipitation", 
               "Annual count of days when Precip ≥ 10mm (0.39in.)", "Annual count of days when Precip ≥ 20mm (0.79in.)")
-var.ID <- c("Avg.Temp",  "TXx", "TXn", "TNx", "TNn", "SU", "TR", "ID", "FD", "CoDD", "HDD", "Tot.Prcp", "Rx1day", "Rx5day", "R10mm", "R20mm")
+var.ID <- c("Avg.Temp",  "TXx", "TNx", "TXn", "TNn", "SU", "TR", "ID", "FD", "CoDD", "HDD", "Tot.Prcp", "Rx1day", "Rx5day", "R10mm", "R20mm")
 var.unit <- c("Temperature (ºF)", "Temperature (ºF)", "Temperature (ºF)", "Temperature (ºF)", "Temperature (ºF)", 
               "Count of days", "Count of days", "Count of days", "Count of days", "ºF-days", "ºF-days", "Precipitation (in.)", "Precipitation (in.)", "Precipitation (in.)", 
               "Count of days", "Count of days")
