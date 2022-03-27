@@ -85,7 +85,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       selectInput("state", "Select the state", choices = states.list, selected = states.list[1]),
-      selectInput("city", "Select the city", choices = cities.list$P.name[cities.list$State == states.list[1]], selected = cities.list$P.name[2]),
+      selectInput("city", "Select the city", choices = cities.list$P.name[cities.list$State == states.list[1]], selected = cities.list$P.name[1]),
       selectInput("var", "Select the annual climate variable", choices = var.list, selected = var.list[1]),
       checkboxInput("use.MA", "Include the moving 10-year averages\n(shown as the red line)", value = TRUE),
     ),
