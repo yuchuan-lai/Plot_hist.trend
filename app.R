@@ -90,7 +90,10 @@ ui <- fluidPage(
     ),
     mainPanel(
       h3(textOutput("select.var")),
-      plotOutput("plot", width = "700px")
+      shinycssloaders::withSpinner(
+        splotOutput("plot"),
+        hide.ui = FALSE, type = 3, color = "#666666", color.background = "#FFFFFF"
+      )
     )
   )
   
